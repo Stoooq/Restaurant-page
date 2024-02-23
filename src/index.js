@@ -1,5 +1,6 @@
 import loadHomePage from './loadHome.js';
 import loadMenuPage from './loadMenu.js';
+import loadAboutPage from './loadAbout.js';
 
 const body = document.querySelector('body')
 const header = document.createElement('header')
@@ -31,3 +32,4 @@ loadHomePage()
 
 btnHome.addEventListener('click', loadHomePage)
 btnMenu.addEventListener('click', loadMenuPage)
+btnAbout.addEventListener('click', loadAboutPage)
